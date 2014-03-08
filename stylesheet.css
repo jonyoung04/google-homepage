@@ -1,13 +1,84 @@
-#logo {
-	text-align: center;
-	margin: 200px 0px 0px 0px;
+.wrapper {
+	margin: 0 auto;
+}
+
+#header {
+	background-color: #666666;
+	margin: 0 auto;
+	height: 40px;
 
 }
 
-#searchBar { 
+#logo {
+  	text-align:center;
+    margin-top:200px;
+}
 
+#searchWrapper {
+	text-align: center;
+	position: relative;
+}
+
+input#searchBar {
+	width: 560px;
+	height: 27px;
+	padding-left: 10px;
+	background-image: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/48x48/mic.png);
+	background-size: 20px;
+	background-position: 543px 4px;
+	background-repeat: no-repeat;
+	border-style:solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+}
+input#searchBar:hover {
+	border-color: #666666;
+}
+
+input[type=submit] {
+	height: 28px;
+	border-radius: 1px;
+	border-style:solid;
+	border-color: #D2D2D2;
+	border-width: 1px;
+	background-color: #F1F1F1;
+	font-family: "Arial";
+	font-weight: bold;
+	color: #2D2D2D;
 }
 
 #submitButton {
+}
+button[type=button] {
+	height: 28px;
+	border-radius: 1px;
+	border-style:solid;
+	border-color: #D2D2D2;
+	border-width: 1px;
+	background-color: #F1F1F1;
+	font-family: "Arial";
+	font-weight: bold;
+	color: #2D2D2D;
+}
 
+
+#imFeelingLucky {
+
+}
+
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li
+{
+display:inline;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
 }

@@ -1,0 +1,112 @@
+/* CSS for layout 1 */
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	text-align: right;
+
+}
+
+#divHeader ul {
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+	line-height: 60px;
+	color: #404040;
+
+}
+
+#divHeader ul li {
+	display:inline;
+	width: 80px;
+	text-decoration: none;
+	word-spacing: 50px;
+	margin-right: 10px;
+	
+}
+#divHeader ul li a {
+	text-decoration: none;
+}
+
+#divHeader ul li a:visited {
+	text-decoration: none;
+}
+
+#buttonSignIn {
+	background-color: #357ae8; 
+	height: 30px;
+	width: 71px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-family: "Arial";
+	font-weight: bold;
+	margin-right: 20px;
+
+
+}
+
+#main {
+	height: 100%;
+
+}
+
+#divWrapper {
+	text-align: center;
+}
+
+#logo {
+	text-align: center;
+}
+input#searchBar {
+	width: 560px;
+	height: 27px;
+	padding-left: 10px;
+	background-image: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/48x48/mic.png);
+	background-size: 20px;
+	background-position: 543px 4px;
+	background-repeat: no-repeat;
+	border-style:solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+}
+
+input#searchBar:hover {
+	border-color: #666666;
+	}
+
+footer {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	min-height: 40px;
+	margin: 0 auto;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+
+}
+
+#footerContent {
+float: right;
+	padding-top: 16px;
+	padding-right: 300px;
+}
+

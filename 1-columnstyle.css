@@ -1,0 +1,46 @@
+/* CSS for layout 1 */
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+
+}
+
+header {
+	background-color: red;
+	height: 80px;
+	text-align: center;
+}
+
+#main {
+	height: 100%;
+
+}
+
+footer {
+	background-color: #090;
+	min-height: 60px;
+	width: 100%;
+	margin: 0 auto;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+
+}
+
+#footerContent {
+float: right;
+	padding-top: 16px;
+	padding-right: 300px;
+}
