@@ -39,15 +39,24 @@ header {
 	text-decoration: none;
 	word-spacing: 50px;
 	margin-right: 10px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
 	
 }
 #divHeader ul li a {
 	text-decoration: none;
+
+}
+
+#divHeader ul li a:hover {
+	text-decoration: underline;
 }
 
 #divHeader ul li a:visited {
-	text-decoration: none;
+	color: #404040;
 }
+
+
 
 #buttonSignIn {
 	background-color: #357ae8; 
@@ -74,10 +83,15 @@ header {
 
 #logo {
 	text-align: center;
+	padding: 20px;
+	margin-top: 120px;
+
+
 }
+
 input#searchBar {
 	width: 560px;
-	height: 27px;
+	height: 25px;
 	padding-left: 10px;
 	background-image: url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/48x48/mic.png);
 	background-size: 20px;
@@ -104,9 +118,73 @@ footer {
 
 }
 
-#footerContent {
-float: right;
-	padding-top: 16px;
-	padding-right: 300px;
+div#ABA ul {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+	color: #404040;
+	word-spacing: -3px;
 }
+
+div#ABA ul li {
+	display: inline;
+	margin-left: 30px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+
+}
+
+div#ABA ul li a {
+	text-decoration: none;
+}
+
+div#ABA ul li a:hover {
+	text-decoration: underline;
+}
+
+
+div#ABA ul li a:visited {
+	color: #404040;
+}
+
+
+
+div#PS ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	margin-right: 30px;
+	padding: 0;
+	line-height: 40px;
+	color: #404040;
+	word-spacing: -3px;
+}
+
+div#PS ul li {
+	display: inline-block;
+	margin-left: 30px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+
+}
+
+div#PS ul li a {
+	text-decoration: none;
+}
+
+div#PS ul li a:hover {
+	text-decoration: underline;
+}
+
+
+div#PS ul li a:visited {
+	color: #404040;
+}
+
+#footerContent {
+
+}
+
 
